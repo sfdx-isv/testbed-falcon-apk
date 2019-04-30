@@ -1,0 +1,36 @@
+{
+  "packageDirectories": [
+    { "path": "sfdx-source/falcon_apk_test", "default": true },
+    { "path": "sfdx-source/unpackaged"},
+    { "path": "sfdx-source/untracked"}
+  ],
+  "namespace": "falcon_apk_test",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "45.0",
+  "plugins": {
+    "sfdxFalcon": {
+      "developerAlias"  : "isvte",
+      "developerName"   : "ISV Technical Enablement",
+      "projectAlias"    : "testbed-falcon-apk",
+      "projectName"     : "Falcon APK Test Package",
+      "projectFamily"   : "APK",
+      "projectType"     : "1GP:managed",
+      "defaultRecipe"   : "build-scratch-org.json",
+      "gitRemoteUri"    : "https://github.com/sfdx-isv/testbed-falcon-apk.git",
+      "gitHubUrl"       : "https://github.com/my-org/my-repo",
+      "projectVersion"  : "0.0.1",
+      "schemaVersion"   : "0.0.1",
+      "pluginVersion"   : "0.0.93",
+      "appxPackage"     : {
+        "namespacePrefix"   : "falcon_apk_test",
+        "packageName"       : "Falcon APK Test Package",
+        "metadataPackageId" : "0331U000000EFoxQAG",
+        "packageVersionId"  : {
+          "release" : "UNAVAILABLE",
+          "beta"    : "UNAVAILABLE"
+        }
+      },
+      "appxDemo": {}
+    }
+  }
+}

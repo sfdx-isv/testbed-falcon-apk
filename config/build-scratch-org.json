@@ -1,0 +1,40 @@
+{
+  "recipeName":     "Build Scratch Org",
+  "description":    "Builds/Rebuilds this AppX Package Kit (APK) project",
+  "recipeType":     "appx:package-recipe",
+  "recipeVersion":  "1.0.0",
+  "schemaVersion":  "0.1.2",
+  "options":  {
+    "haltOnError":      true,
+    "noCustomInstall":  false,
+    "skipGroups":       [],
+    "skipActions":      [],
+    "targetOrgs": [
+      {
+        "orgName":        "Scratch Org",
+        "alias":          "testbed-falcon-apk_scratch",
+        "description":    "Pushes managed package source into a Scratch Org",
+        "isScratchOrg":   true,
+        "scratchDefJson": "dev-build-scratch-def.json"
+      }
+    ]
+  },
+  "recipeStepGroups": [
+    {
+      "stepGroupName":  "Push Source",
+      "alias":          "push-source",
+      "description":    "Pushes SFDX source to the scratch org",
+      "recipeSteps": [
+        { 
+          "stepName":     "Push Source",
+          "description":  "Pushes SFDX source to the scratch org",
+          "action":       "source-push"
+        }
+      ]
+    }
+  ],
+  "handlers": [
+    {},
+    {}
+  ]
+}
