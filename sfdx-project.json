@@ -8,13 +8,13 @@
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "45.0",
   "plugins": {
-    "sfdxFalcon2": {
+    "sfdxFalcon": {
       "developerAlias"  : "isvte",
       "developerName"   : "ISV Technical Enablement",
       "projectAlias"    : "testbed-falcon-apk",
       "projectName"     : "Falcon APK Test Package",
       "projectFamily"   : "APK",
-      "projectType"     : "1GP:managed",
+      "projectType"     : "1GP:managed2",
       "defaultRecipe"   : "build-scratch-org.json",
       "gitRemoteUri"    : "https://github.com/sfdx-isv/testbed-falcon-apk.git",
       "gitHubUrl"       : "https://github.com/my-org/my-repo",
