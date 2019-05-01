@@ -8,7 +8,7 @@
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "45.0",
   "plugins": {
-    "sfdxFalcon": {
+    "sfdxFalcon2": {
       "developerAlias"  : "isvte",
       "developerName"   : "ISV Technical Enablement",
       "projectAlias"    : "testbed-falcon-apk",
