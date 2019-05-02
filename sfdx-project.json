@@ -14,7 +14,7 @@
       "projectAlias"    : "testbed-falcon-apk",
       "projectName"     : "Falcon APK Test Package",
       "projectFamily"   : "APK",
-      "projectType"     : "1GP:managed2",
+      "projectType"     : "1GP:managed",
       "defaultRecipe"   : "build-scratch-org.json",
       "gitRemoteUri"    : "https://github.com/sfdx-isv/testbed-falcon-apk.git",
       "gitHubUrl"       : "https://github.com/my-org/my-repo",
