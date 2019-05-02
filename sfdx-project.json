@@ -24,7 +24,7 @@
       "appxPackage"     : {
         "namespacePrefix"   : "falcon_apk_test",
         "packageName"       : "Falcon APK Test Package",
-        "metadataPackageId" : "0331U000000EFoxQAGx",
+        "metadataPackageId" : "0331U000000EFoxQAG",
         "packageVersionId"  : {
           "release" : "UNAVAILABLE",
           "beta"    : "UNAVAILABLE"
